@@ -20,10 +20,11 @@
 }
 
 .big-card__description > p > a {
-    color: gray;
+    color: rgb(255, 255, 255);
+    line-height: 1.3em
 }
 
 .big-card__photo > img {
-    width: 100%;
-    min-width: 398px;
+    width: 400px;
+    height: 400px;
 }

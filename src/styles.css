@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sriracha&display=swap');
 * {
     background-image: url(assets/imgs/18220884_v1016-b-09.jpg);
     background-size: cover;
@@ -8,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {

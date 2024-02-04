@@ -1,6 +1,7 @@
 .container__small-card {
     width: 700px;
     margin-bottom: 15px;
+    max-height: 166.6px;
 }
 
 .container__small-card-content {
@@ -20,10 +21,12 @@
 }
 
 .small__title > h1 {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+    
 }
 
 hr {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
