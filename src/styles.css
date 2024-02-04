@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    background-color: #111111;
+    background-image: url(assets/imgs/18220884_v1016-b-09.jpg);
+    background-size: cover;
+    
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
