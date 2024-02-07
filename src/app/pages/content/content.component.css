@@ -10,11 +10,10 @@
 
 .content__cover > img {
     border-radius: 5px;
-    border: 5px solid rgb(145, 145, 145);
-    width: 500px;
-    min-width: 500px;
-    height: 300px;
+    border: 5px solid rgb(145, 145, 145);  
     margin-bottom: 15px;
+    min-width: 400px;
+    min-height: 300px;
 }
 
 .content__description {
@@ -32,4 +31,5 @@
 .content__description > p {
     color: rgb(243, 240, 240);
     margin-top: 10px;
+    margin-bottom: 20px;
 }
