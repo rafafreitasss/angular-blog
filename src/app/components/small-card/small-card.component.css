@@ -2,6 +2,9 @@
     width: 700px;
     margin-bottom: 15px;
     max-height: 166.6px;
+    @media screen and (max-width: 1360px){
+        width: 466px;
+    }
 }
 
 .container__small-card-content {

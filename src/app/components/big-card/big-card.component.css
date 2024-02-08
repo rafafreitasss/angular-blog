@@ -3,11 +3,14 @@
     margin-left: 20px;
     margin-right: 20px;
     width: 400px;
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /*justifica a esquerda*/
     justify-content: flex-start;
+    @media screen and (max-width: 1360px){
+        width: 266px;
+    }
 }
 
 .big-card__title > h1 {
@@ -27,4 +30,8 @@
 .big-card__photo > img {
     width: 400px;
     height: 400px;
+    @media screen and (max-width: 1360px){
+        width: 266px;
+        height: 266px;
+    }
 }

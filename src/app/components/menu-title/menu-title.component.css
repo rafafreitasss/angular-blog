@@ -9,6 +9,9 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1360px) {
+        font-size: 90px;
+    }
 }
 
 .container__menu-title > span {

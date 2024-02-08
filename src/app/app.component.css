@@ -1,15 +1,18 @@
 
-
-.container__articles {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+div {
+    min-height: 100vh;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+    @media screen and (max-width: 1360px) {
+        width: 800px;        
+    }
 }
 
 header {
-    margin-top: 15px;
     display: flex;
     justify-content: center;
 }

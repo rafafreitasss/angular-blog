@@ -1,15 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sriracha&display=swap');
 * {
-    background: rgb(0, 0, 0) url(assets/imgs/18220884_v1016-b-09.jpg);
-    background-size: cover;
-    
-    background-attachment: fixed;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background: url(assets/imgs/postura-plana-da-estacao-de-trabalho-com-espaco-de-copia-e-laptop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 a {

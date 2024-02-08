@@ -12,6 +12,7 @@ export class ContentComponent implements OnInit {
   photoCover:string = ''
   contentTitle:string = ''
   contentDescription:string = ''
+  link:string=''
 
   private id:string | null = '0'
 
@@ -33,6 +34,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.link = result.link
   }
 
 }
