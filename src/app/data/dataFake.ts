@@ -22,9 +22,9 @@ export const dataFake = [
     },
     {
         "id": '4',
-        "title": 'Tá Bonito pra Chover',
+        "title": 'Guia turístico para viajar o mundo',
         "description": '',
-        "photoCover": '../assets/imgs/mockup.jpg',
+        "photoCover": '../assets/imgs/machu-picchu.png',
         "link": ''
     },
     {
