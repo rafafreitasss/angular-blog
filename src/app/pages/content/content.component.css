@@ -23,10 +23,16 @@
 
 }
 
+.content__description > a > img {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;   
+}
+
 .seta {
-    margin-left: 48%;
     background-color: rgba(255, 255, 255, 0.329);  
     border-radius: 50px;  
+    
 }
 
 .content__description > p {
