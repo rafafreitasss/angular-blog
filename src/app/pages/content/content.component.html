@@ -1,6 +1,8 @@
 <div class="container__content">
     <div class="content__cover">
-        <img src="{{ photoCover }}" alt="" srcset="">
+        <app-carrossel
+            [photoCover]="photoCover"
+        ></app-carrossel>
     </div>
     <div class="content__title">
         <h1>{{ contentTitle }}</h1>
@@ -9,7 +11,7 @@
     <div class="content__description">
         <a [routerLink]="['']" onclick="history.go(-1); return false;"><img class="seta" src="../../../assets/imgs/voltar.png" alt=""></a>
         <p class="link">
-            <a href="https://merry-cannoli-bfcfe3.netlify.app" target="_blank"> {{ link }} </a>
+            <a href="" target="_blank"> {{ link }} </a>
         </p>
         <p>
             {{ contentDescription }}

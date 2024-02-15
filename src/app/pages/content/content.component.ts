@@ -9,7 +9,7 @@ import { dataFake } from '../../data/dataFake'
 })
 export class ContentComponent implements OnInit {
 
-  photoCover:string = ''
+  photoCover: string[] = [];
   contentTitle:string = ''
   contentDescription:string = ''
   link:string=''

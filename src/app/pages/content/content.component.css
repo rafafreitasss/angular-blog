@@ -23,8 +23,13 @@
 
 }
 
+.content__description > a {
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+}
+
 .content__description > a > img {
-    box-sizing: border-box;
     display: block;
     margin: auto;   
 }
