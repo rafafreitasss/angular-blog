@@ -10,9 +10,17 @@ import { dataFake } from '../../data/dataFake'
 export class ContentComponent implements OnInit {
 
   photoCover: string[] = [];
+  highQualityPhoto: string = ''
+  zoom:boolean = false;
   contentTitle:string = ''
   contentDescription:string = ''
   link:string=''
+
+  openHighQualityView() {
+    if(this.zoom === false) {
+      this.zoom = true
+    }
+  }
 
   private id:string | null = '0'
 
@@ -34,6 +42,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.highQualityPhoto = result.highQualityPhoto
     this.link = result.link
   }
 

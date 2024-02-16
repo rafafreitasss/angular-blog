@@ -43,7 +43,7 @@ export class CarrosselComponent implements OnInit, OnDestroy {
   }
 
   iniciarTimer(): void {
-    this.timerSubs = timer(3000).subscribe(() => {
+    this.timerSubs = timer(100000).subscribe(() => {
       this.ativarImagem(
         this.indexImagemAtiva + 1
       );

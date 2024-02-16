@@ -6,6 +6,20 @@
     border: 5px solid rgb(145, 145, 145);  
     width: 400px;
     height: 300px;
+    margin: 100px;
+  }
+
+  .item {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  .item:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
   }
   
   .botoes-controle {

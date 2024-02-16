@@ -1,8 +1,10 @@
 <div class="container__content">
     <div class="content__cover">
-        <app-carrossel
+        <div class="photo-container" (click)="openHighQualityView()">
+            <app-carrossel
             [photoCover]="photoCover"
-        ></app-carrossel>
+            ></app-carrossel>
+        </div>
     </div>
     <div class="content__title">
         <h1>{{ contentTitle }}</h1>
@@ -11,7 +13,7 @@
     <div class="content__description">
         <a [routerLink]="['']" onclick="history.go(-1); return false;"><img class="seta" src="../../../assets/imgs/voltar.png" alt=""></a>
         <p class="link">
-            <a href="" target="_blank"> {{ link }} </a>
+            <a href="{{link}}" target="_blank"> Clique aqui para acessar. </a>
         </p>
         <p>
             {{ contentDescription }}

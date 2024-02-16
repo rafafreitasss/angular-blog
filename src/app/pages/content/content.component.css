@@ -15,11 +15,20 @@
     min-height: 300px;
 }
 
+.content__title > h1 {
+    @media screen and (max-width: 1360px){
+        font-size: 1.6em;
+    }
+}
+
 .content__description {
     margin-top: 20px;
     text-align: justify;
     width: 50%;
     line-height: 1.5em;
+    @media screen and (max-width: 1360px){
+        font-size: 1em;
+    }
 
 }
 
@@ -53,3 +62,4 @@
 .link:hover {
     text-decoration: underline;
 }
+
