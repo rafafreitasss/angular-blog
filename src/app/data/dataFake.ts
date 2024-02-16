@@ -41,10 +41,18 @@ export const dataFake = [
     },
     {
         "id": '6',
-        "title": "Projeto Cordel Moderno com efeito Parallax em HTML e CSS",
+        "title": "Projeto Cordel Moderno com HTML e CSS",
         "description": '',
         "photoCover": ['../assets/imgs/cordelModerno.png'],
         "highQualityPhoto": '../assets/imgs/eu.jpg',
         "link": 'https://rafafreitasss.github.io/projeto-cordel/'
+    },
+    {
+        "id": '7',
+        "title": "Pokedex",
+        "description": '',
+        "photoCover": ['../assets/imgs/download.png'],
+        "highQualityPhoto": '',
+        "link": 'https://proj-pokedex.netlify.app'
     }
 ]
