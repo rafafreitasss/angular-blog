@@ -41,10 +41,10 @@ export const dataFake = [
     },
     {
         "id": '6',
-        "title": "Projeto Cordel Moderno com HTML e CSS",
+        "title": "Projeto Cordel Moderno com efeito Parallax em HTML e CSS",
         "description": '',
-        "photoCover": ['../assets/imgs/quizz.png'],
+        "photoCover": ['../assets/imgs/cordelModerno.png'],
         "highQualityPhoto": '../assets/imgs/eu.jpg',
-        "link": ''
+        "link": 'https://rafafreitasss.github.io/projeto-cordel/'
     }
 ]
