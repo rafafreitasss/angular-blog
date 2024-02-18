@@ -20,7 +20,7 @@ export const dataFake = [
         "title": 'Tá Bonito pra Chover',
         "description": '',
         "photoCover": ['../assets/imgs/mockup.jpg'],
-        "highQualityPhoto": ['../assets/imgs/eu.jpg'],
+        "highQualityPhoto": [''],
         "link": ''
     },
     {
@@ -28,7 +28,7 @@ export const dataFake = [
         "title": 'Guia turístico para viajar o mundo',
         "description": '',
         "photoCover": ['../assets/imgs/machu-picchu.png'],
-        "highQualityPhoto": ['../assets/imgs/eu.jpg'],
+        "highQualityPhoto": [''],
         "link": ''
     },
     {
@@ -36,7 +36,7 @@ export const dataFake = [
         "title": 'Quizz Buzzfeed com AngularJS',
         "description": '',
         "photoCover": ['../assets/imgs/quizz.png'],
-        "highQualityPhoto": ['../assets/imgs/eu.jpg'],
+        "highQualityPhoto": [''],
         "link": 'https://merry-cannoli-bfcfe3.netlify.app'
     },
     {
@@ -44,7 +44,7 @@ export const dataFake = [
         "title": "Projeto Cordel Moderno com HTML e CSS",
         "description": '',
         "photoCover": ['../assets/imgs/cordelModerno.png'],
-        "highQualityPhoto": ['../assets/imgs/eu.jpg'],
+        "highQualityPhoto": [''],
         "link": 'https://rafafreitasss.github.io/projeto-cordel/'
     },
     {
