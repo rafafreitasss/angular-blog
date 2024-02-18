@@ -11,8 +11,8 @@ export const dataFake = [
         "id": '2',
         "title": 'Menino da Luz Azul',
         "description": '',
-        "photoCover": ['../assets/imgs/nantes.png'],
-        "highQualityPhoto": ['../assets/imgs/fullhdphoto.jpg'],
+        "photoCover": ['../assets/imgs/nantes.png', '../assets/imgs/Livro01.jpg'],
+        "highQualityPhoto": ['../assets/imgs/fullhdphoto.jpg', '../assets/imgs/Livro01.jpg'],
         "link": ''
     },
     {

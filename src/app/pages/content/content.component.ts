@@ -38,8 +38,13 @@ export class ContentComponent implements OnInit, OnDestroy {
   }
 
   set indexImagemAtiva(value: number) {
-    this._indexImagemAtiva =
+    if(this.photo === true) {
+      this._indexImagemAtiva =
+      value < this.photoCover.length ? value : 0;
+    }else if(this.photo === false) {
+      this._indexImagemAtiva =
       value < this.highQualityPhoto.length ? value : 0;
+    }
   }
 
   constructor(

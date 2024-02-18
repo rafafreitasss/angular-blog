@@ -31,15 +31,6 @@
     margin-bottom: 20px;
   }
   
-  .botoes-controle button {
-    background: #ccc;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-  }
-  
   .botoes-controle button.ativo {
     background: #ff0000;
     cursor: default;
