@@ -66,7 +66,7 @@ export class ContentComponent implements OnInit, OnDestroy {
   }
 
   iniciarTimer(): void {
-    this.timerSubs = timer(100000).subscribe(() => {
+    this.timerSubs = timer(5000).subscribe(() => {
       this.ativarImagem(
         this.indexImagemAtiva + 1
       );
