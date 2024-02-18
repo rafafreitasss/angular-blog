@@ -1,18 +1,21 @@
-<div
-  class="item"
-  [style.backgroundImage]="
-    'url(' + photoCover[indexImagemAtiva] + ')'
-  "
-></div>
 
-<!-- Botões de controle -->
-<div class="botoes-controle">
-    <button
-      *ngFor="let imagem of photoCover; index as i"
-      [class.ativo]="i === indexImagemAtiva"
-      (click)="pararTimer(); ativarImagem(i)">
-    </button>
-  </div>
+  <div
+  
+    class="item"
+    [style.backgroundImage]="
+      'url(' + photoCover[indexImagemAtiva] + ')'
+    "
+  ></div>
+  
+  <!-- Botões de controle -->
+  <div class="botoes-controle">
+      <button
+        *ngFor="let imagem of photoCover; index as i"
+        [class.ativo]="i === indexImagemAtiva"
+        (click)="pararTimer(); ativarImagem(i)">
+      </button>
+    </div>
+
 
   <!--
   Cria imagens que ficam "escondidas"

@@ -4,12 +4,13 @@
     transition: all 0.5s ease-in-out;
     border-radius: 5px;
     border: 5px solid rgb(145, 145, 145);  
-    width: 400px;
-    height: 300px;
-    margin: 100px;
+    min-width: 400px;
+    min-height: 300px;
+    cursor: pointer;
+    
   }
 
-  .item {
+  /*.item {
     max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -20,14 +21,14 @@
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-  }
+  }*/
   
   .botoes-controle {
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .botoes-controle button {

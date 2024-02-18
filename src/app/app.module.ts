@@ -10,7 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { CarrosselComponent } from './components/carrossel/carrossel.component';
-import { HighQualityViewComponent } from './components/high-quality-view/high-quality-view.component';
+
 
 
 @NgModule({
@@ -22,8 +22,7 @@ import { HighQualityViewComponent } from './components/high-quality-view/high-qu
     SmallCardComponent,
     HomeComponent,
     ContentComponent,
-    CarrosselComponent,
-    HighQualityViewComponent
+    CarrosselComponent
     
   ],
   imports: [

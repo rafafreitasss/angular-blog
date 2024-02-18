@@ -1,28 +1,46 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from '../../data/dataFake'
+import { Subscription, timer } from 'rxjs';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']
 })
-export class ContentComponent implements OnInit {
+export class ContentComponent implements OnInit, OnDestroy {
+
+  timerSubs!: Subscription;
 
   photoCover: string[] = [];
-  highQualityPhoto: string = ''
+  highQualityPhoto: string[] = [];
   zoom:boolean = false;
+  photo:boolean = true;
   contentTitle:string = ''
   contentDescription:string = ''
   link:string=''
 
   openHighQualityView() {
-    if(this.zoom === false) {
-      this.zoom = true
-    }
+    this.photo = false
+    
   }
 
+  closeFullHd() {
+    this.photo = true
+  }
+
+
   private id:string | null = '0'
+
+  private _indexImagemAtiva: number = 0;
+  get indexImagemAtiva() {
+    return this._indexImagemAtiva;
+  }
+
+  set indexImagemAtiva(value: number) {
+    this._indexImagemAtiva =
+      value < this.highQualityPhoto.length ? value : 0;
+  }
 
   constructor(
     private route:ActivatedRoute
@@ -34,6 +52,29 @@ export class ContentComponent implements OnInit {
     )
 
     this.setValuesToComponent(this.id)
+
+    this.iniciarTimer();
+  }
+
+  ngOnDestroy(): void {
+    this.pararTimer();
+  }
+
+  iniciarTimer(): void {
+    this.timerSubs = timer(100000).subscribe(() => {
+      this.ativarImagem(
+        this.indexImagemAtiva + 1
+      );
+    });
+  }
+
+  pararTimer(): void {
+    this.timerSubs?.unsubscribe();
+  }
+
+  ativarImagem(index: number): void {
+    this.indexImagemAtiva = index;
+    this.iniciarTimer();
   }
 
   setValuesToComponent(id:string | null) {

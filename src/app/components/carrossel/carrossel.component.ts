@@ -9,7 +9,10 @@ import { Subscription, timer } from 'rxjs';
   styleUrls: ['./carrossel.component.css']
 })
 export class CarrosselComponent implements OnInit, OnDestroy {
-
+  @Input() highQualityPhoto: string[] = [];
+  
+  
+  
     // Guarda a referência do temporizador.
    // Assim conseguimos interromper o temporizador
   // a qualquer momento
@@ -32,7 +35,10 @@ export class CarrosselComponent implements OnInit, OnDestroy {
       value < this.photoCover.length ? value : 0;
   }
 
+
   constructor() { }
+
+
 
   ngOnInit(): void {
     this.iniciarTimer();
@@ -58,6 +64,8 @@ export class CarrosselComponent implements OnInit, OnDestroy {
     this.indexImagemAtiva = index;
     this.iniciarTimer();
   }
+
+
 
 }
 
