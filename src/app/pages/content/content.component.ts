@@ -23,6 +23,7 @@ export class ContentComponent implements OnInit, OnDestroy {
   openHighQualityView() {
     this.photo = false
     
+    
   }
 
   closeFullHd() {
@@ -66,7 +67,7 @@ export class ContentComponent implements OnInit, OnDestroy {
   }
 
   iniciarTimer(): void {
-    this.timerSubs = timer(5000).subscribe(() => {
+    this.timerSubs = timer(500000).subscribe(() => {
       this.ativarImagem(
         this.indexImagemAtiva + 1
       );
