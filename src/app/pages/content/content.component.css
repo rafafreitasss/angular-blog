@@ -68,11 +68,26 @@
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 0.5s ease-in-out;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 5px solid rgb(145, 145, 145);  
     width: 400px;
     height: 300px;
     cursor: pointer;
+}
+
+.item-photoCover {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.item-photoCover:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .item {
@@ -80,7 +95,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 0.5s ease-in-out;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 5px solid rgb(145, 145, 145);  
     width: 700px;
     height: 500px;

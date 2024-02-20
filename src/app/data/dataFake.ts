@@ -11,8 +11,8 @@ export const dataFake = [
         "id": '2',
         "title": 'Menino da Luz Azul',
         "description": '',
-        "photoCover": ['../assets/imgs/nantes.png', '../assets/imgs/tabletZoom.png'],
-        "highQualityPhoto": ['../assets/imgs/fullhdphoto.jpg', '../assets/imgs/tabletZoom.png'],
+        "photoCover": ['../assets/imgs/nantes.jpg', '../assets/imgs/tabletZoom.png'],
+        "highQualityPhoto": ['../assets/imgs/nantesFullHd.png', '../assets/imgs/tabletZoom.png'],
         "link": ''
     },
     {
@@ -20,7 +20,7 @@ export const dataFake = [
         "title": 'Tá Bonito pra Chover',
         "description": '',
         "photoCover": ['../assets/imgs/mockup.jpg'],
-        "highQualityPhoto": [''],
+        "highQualityPhoto": ['../assets/imgs/mockup.jpg'],
         "link": ''
     },
     {
