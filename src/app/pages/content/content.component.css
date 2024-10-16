@@ -1,10 +1,14 @@
+header {
+    margin-bottom: 20px;
+}
+
 .container__content {
-    
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .content__cover > img {
@@ -26,8 +30,10 @@
     text-align: justify;
     width: 50%;
     line-height: 1.5em;
+    
     @media screen and (max-width: 1360px){
         font-size: 1em;
+        width: 60%;
     }
 
 }
@@ -49,14 +55,30 @@
     
 }
 
-.content__description > p {
-    color: rgb(243, 240, 240);
-    margin-top: 10px;
+.description {
+    color: black;
+    margin-top: 20px;
     margin-bottom: 20px;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    padding-top: 13px;
+    border-radius: 5px;
+    
 }
 
 .link {
     text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 .link:hover {

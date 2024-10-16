@@ -3,7 +3,7 @@
 .container__menu-bar > ul {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
 .container__menu-bar > ul > li {

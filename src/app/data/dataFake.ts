@@ -10,7 +10,7 @@ export const dataFake = [
     {
         "id": '2',
         "title": 'Menino da Luz Azul',
-        "description": '',
+        "description": 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolore inventore nobis omnis quidem cum veniam corporis, consequuntur nulla, eaque modi quisquam quo dolorem officia obcaecati rem eos impedit.',
         "photoCover": ['../assets/imgs/nantes.jpg', '../assets/imgs/tabletZoom.png'],
         "highQualityPhoto": ['../assets/imgs/nantesFullHd.png', '../assets/imgs/tabletZoom.png'],
         "link": ''

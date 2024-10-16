@@ -1,8 +1,11 @@
 <div class="container__content">
+    <header>
+        <app-menu-bar></app-menu-bar>
+    </header>
     <div class="content__cover">
         <div class="photo-container">
             
-                <div *ngIf="photo; else fullHd">
+                <div *ngIf="photo; else fullHd" class="delay">
                     <div (click)="openHighQualityView()"
                         class="item-photoCover"
                         [style.backgroundImage]="
@@ -63,7 +66,7 @@
         <p class="link">
             <a href="{{link}}" target="_blank"> {{link}} </a>
         </p>
-        <p>
+        <p class="description">
             {{ contentDescription }}
         </p>
     </div>
